@@ -37,13 +37,13 @@ export default function About() {
   return (
     <section id="quem-somos" className="scroll-mt-20 bg-slate-950 py-24 px-6">
       <div className="mx-auto max-w-6xl">
-        <div className="grid gap-12 lg:grid-cols-2 items-start">
+        <div className="grid gap-16 lg:grid-cols-[1fr_1.3fr] items-center">
           <div>
             <Eyebrow accent="cyan">Sobre ClickFone</Eyebrow>
             <h2 className="font-heading max-w-2xl text-3xl font-extrabold text-white sm:text-4xl md:text-5xl">
               Telefonia em nuvem que simplifica a comunicação empresarial.
             </h2>
-            <div className="mt-6 max-w-2xl space-y-6 text-justify text-lg leading-relaxed text-slate-300">
+            <div className="mt-8 max-w-2xl space-y-6 text-justify text-base leading-relaxed text-slate-300">
               <p>
                 ClickFone é uma solução de PABX Virtual em nuvem criada pela Memória RAM Solutions, empresa com mais de 28 anos de experiência em tecnologia empresarial. Nosso objetivo é oferecer comunicação profissional sem complexidade operacional, permitindo que empresas de qualquer tamanho tenham acesso a recursos de telefonia de nível corporativo.
               </p>
@@ -52,15 +52,20 @@ export default function About() {
               </p>
             </div>
           </div>
-          <div className="hidden lg:block relative">
-            <Image
-              src="/images/dashboard-clickfone.png"
-              alt="Dashboard ClickFone"
-              width={600}
-              height={400}
-              priority
-              className="w-full h-auto rounded-lg"
-            />
+          <div className="hidden lg:flex lg:justify-center relative -mr-8">
+            <div className="relative shadow-2xl shadow-cyan-500/30 rounded-2xl overflow-hidden border border-cyan-500/20" style={{
+              transform: 'perspective(1200px) rotateY(-3deg)',
+            }}>
+              <Image
+                src="/images/dashboard-clickfone.png"
+                alt="Dashboard ClickFone"
+                width={800}
+                height={550}
+                priority
+                className="w-full h-auto"
+              />
+              <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-slate-950/40 via-transparent to-transparent pointer-events-none" />
+            </div>
           </div>
         </div>
 
