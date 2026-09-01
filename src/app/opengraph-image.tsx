@@ -21,69 +21,104 @@ export default async function Image() {
           height: "100%",
           display: "flex",
           flexDirection: "column",
-          justifyContent: "center",
-          padding: "80px",
-          background: "#020617",
+          justifyContent: "space-between",
+          padding: "60px",
+          background: "linear-gradient(135deg, #020617 0%, #0f172a 100%)",
         }}
       >
-        <div style={{ display: "flex", alignItems: "center", gap: 20 }}>
+        {/* Header com Logo */}
+        <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={iconSrc} width={64} height={64} alt="" />
+          <img src={iconSrc} width={56} height={56} alt="" />
           <span
             style={{
-              fontSize: 26,
-              color: "#94a3b8",
-              letterSpacing: 6,
-              fontWeight: 600,
+              fontSize: 24,
+              color: "#22d3ee",
+              letterSpacing: 4,
+              fontWeight: 700,
             }}
           >
             CLICKFONE
           </span>
         </div>
 
+        {/* Content Central */}
         <div
-          style={{ display: "flex", flexDirection: "column", marginTop: 48 }}
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            textAlign: "center",
+            gap: 20,
+          }}
         >
           <span
             style={{
+              fontSize: 18,
+              color: "#22d3ee",
+              letterSpacing: 3,
+              fontWeight: 600,
+              textTransform: "uppercase",
+            }}
+          >
+            Telefonia em Nuvem
+          </span>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: 8,
+            }}
+          >
+            <span
+              style={{
+                fontSize: 72,
+                color: "white",
+                fontWeight: 800,
+                lineHeight: 1.1,
+              }}
+            >
+              Telefonia em nuvem.
+            </span>
+            <span
+              style={{
+                fontSize: 56,
+                color: "#22d3ee",
+                fontWeight: 800,
+                lineHeight: 1.1,
+              }}
+            >
+              Performance. Controle.
+            </span>
+          </div>
+          <span
+            style={{
               fontSize: 24,
-              color: "#22d3ee",
-              letterSpacing: 5,
-              fontWeight: 700,
-            }}
-          >
-            CLOUD TELEPHONY &amp; BUSINESS COMMUNICATION
-          </span>
-          <span
-            style={{
-              fontSize: 100,
-              color: "white",
-              fontWeight: 800,
-              lineHeight: 1.05,
-              marginTop: 24,
-            }}
-          >
-            Telefonia em
-          </span>
-          <span
-            style={{
-              fontSize: 100,
-              color: "#22d3ee",
-              fontWeight: 800,
-              lineHeight: 1.05,
-            }}
-          >
-            nuvem.
-          </span>
-          <span
-            style={{
-              fontSize: 32,
               color: "#cbd5e1",
-              marginTop: 32,
-              maxWidth: 820,
+              marginTop: 12,
             }}
           >
-            Performance. Controle. Inteligência operacional.
+            Inteligência operacional para sua empresa
+          </span>
+        </div>
+
+        {/* Footer com Domínio */}
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            paddingTop: 20,
+            borderTop: "1px solid #334155",
+          }}
+        >
+          <span
+            style={{
+              fontSize: 18,
+              color: "#94a3b8",
+              fontWeight: 500,
+            }}
+          >
+            clickfone-gram.vercel.app
           </span>
         </div>
       </div>
