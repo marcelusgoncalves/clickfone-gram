@@ -19,9 +19,9 @@ const items = [
   {
     icon: CheckIcon,
     accent: "cyan" as const,
-    title: "AWS Infrastructure",
+    title: "Infraestrutura Tier III",
     description:
-      "Hospedagem redundante em datacenters da Amazon com backup nacional e internacional.",
+      "Hospedagem em datacenters certificados Tier III, com alta performance, redundância e backup nacional e internacional.",
   },
   {
     icon: TruckIcon,
