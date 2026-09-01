@@ -2,12 +2,12 @@ import Image from "next/image";
 import { CheckItem, Eyebrow } from "./ui";
 
 const items = [
-  "Inspeção de tráfego em tempo real",
-  "Bloqueio automatizado de ameaças",
-  "Gestão centralizada de políticas",
-  "Escalabilidade sob demanda",
-  "Conectividade segura para filiais e home office",
-  "Relatórios de uso e conformidade",
+  "Criptografia end-to-end de dados",
+  "Conformidade LGPD e compliance",
+  "Autenticação de usuários robusta",
+  "SLA 99,5% de disponibilidade",
+  "Backup automático e disaster recovery",
+  "Auditoria completa de chamadas e logs",
 ];
 
 export default function SecurityChecklist() {
@@ -15,10 +15,9 @@ export default function SecurityChecklist() {
     <section className="bg-slate-900/30 py-24 px-6">
       <div className="mx-auto grid max-w-6xl gap-14 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
         <div>
-          <Eyebrow accent="cyan">Segurança avançada</Eyebrow>
+          <Eyebrow accent="cyan">Segurança e conformidade</Eyebrow>
           <h2 className="font-heading text-3xl font-extrabold text-white sm:text-4xl md:text-5xl">
-            Inteligência para o que realmente importa: a continuidade do seu
-            negócio.
+            Infraestrutura corporativa com proteção em camadas.
           </h2>
 
           <ul className="mt-10 grid gap-4 sm:grid-cols-2">
@@ -32,8 +31,8 @@ export default function SecurityChecklist() {
           <div className="pointer-events-none absolute inset-0 z-10 rounded-2xl bg-cyan-500/5" />
           <div className="relative aspect-video w-full">
             <Image
-              src="/images/dashboard-02.jpeg"
-              alt="Relatório de acesso do firewall com consultas DNS, bloqueios, conteúdo bloqueado e domínios mais acessados"
+              src="/images/dashboard-04.jpeg"
+              alt="Painel de segurança do ClickFone com logs de auditoria, eventos de acesso e monitoramento de conformidade"
               fill
               className="object-cover"
             />

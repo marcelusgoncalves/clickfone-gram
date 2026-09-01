@@ -16,7 +16,7 @@ export default function ContactForm() {
     const telefone = data.get("telefone")?.toString().trim() ?? "";
     const mensagem = data.get("mensagem")?.toString().trim() ?? "";
 
-    const subject = `Solicitação de orçamento — ${nome || "FWAAS"}`;
+    const subject = `Solicitação de demonstração ClickFone — ${nome || "ClickFone"}`;
     const body = [
       `Nome: ${nome}`,
       empresa && `Empresa: ${empresa}`,
@@ -29,7 +29,7 @@ export default function ContactForm() {
       .filter(Boolean)
       .join("\n");
 
-    window.location.href = `mailto:comercial@gruporam.com.br?subject=${encodeURIComponent(
+    window.location.href = `mailto:comercial@clickfone.com.br?subject=${encodeURIComponent(
       subject
     )}&body=${encodeURIComponent(body)}`;
   }
@@ -40,7 +40,7 @@ export default function ContactForm() {
         <input
           name="nome"
           required
-          placeholder="Nome"
+          placeholder="Nome completo"
           className={inputClass}
         />
         <input name="empresa" placeholder="Empresa" className={inputClass} />
@@ -50,7 +50,7 @@ export default function ContactForm() {
           name="email"
           type="email"
           required
-          placeholder="E-mail"
+          placeholder="E-mail corporativo"
           className={inputClass}
         />
         <input
@@ -62,20 +62,20 @@ export default function ContactForm() {
       <textarea
         name="mensagem"
         rows={4}
-        placeholder="Conte um pouco sobre a sua operação e a necessidade de segurança"
+        placeholder="Descreva seus objetivos com telefonia em nuvem e volume de chamadas"
         className={`mt-4 resize-none ${inputClass}`}
       />
 
       <button
         type="submit"
-        className="mt-6 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-amber-400 to-orange-500 px-7 py-4 text-sm font-bold text-slate-950 shadow-lg shadow-amber-500/20 transition hover:brightness-110"
+        className="mt-6 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-cyan-400 to-cyan-500 px-7 py-4 text-sm font-bold text-slate-950 shadow-lg shadow-cyan-500/20 transition hover:brightness-110"
       >
-        Enviar solicitação
+        Solicitar demonstração
         <ArrowRightIcon className="h-4 w-4" />
       </button>
       <p className="mt-3 text-xs text-slate-500">
         Ao enviar, seu aplicativo de e-mail abre com a mensagem pronta para
-        comercial@gruporam.com.br.
+        comercial@clickfone.com.br.
       </p>
     </form>
   );

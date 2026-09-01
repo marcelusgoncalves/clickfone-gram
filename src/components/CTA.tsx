@@ -16,11 +16,11 @@ export default function CTA() {
         </div>
 
         <h2 className="font-heading text-3xl font-extrabold text-white sm:text-5xl">
-          Vamos proteger a sua operação?
+          Pronto para modernizar sua telefonia?
         </h2>
         <p className="mt-6 text-lg text-slate-400">
-          Fale com nossa equipe comercial e receba uma proposta de Firewall
-          as a Service sob medida para a sua empresa.
+          Fale com nossa equipe comercial e conheça como ClickFone pode transformar
+          a comunicação da sua empresa com eficiência e mobilidade.
         </p>
 
         <div className="mt-10 rounded-2xl border border-slate-800 bg-slate-900/30 p-6 sm:p-8">
@@ -33,10 +33,10 @@ export default function CTA() {
 
         <div className="mt-4 flex flex-col justify-center gap-4 sm:flex-row">
           <a
-            href="tel:+556130365656"
-            className="flex flex-1 items-center gap-4 rounded-2xl border border-slate-800 bg-slate-900/40 p-5 text-left transition hover:border-amber-500/40"
+            href="tel:+5508007285800"
+            className="flex flex-1 items-center gap-4 rounded-2xl border border-slate-800 bg-slate-900/40 p-5 text-left transition hover:border-cyan-500/40"
           >
-            <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-amber-500/40 text-amber-400">
+            <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-cyan-500/40 text-cyan-400">
               <PhoneIcon className="h-5 w-5" />
             </span>
             <span>
@@ -44,13 +44,13 @@ export default function CTA() {
                 Telefone
               </span>
               <span className="block font-bold text-white">
-                (61) 3036-5656
+                0800 728 5800
               </span>
             </span>
           </a>
 
           <a
-            href="mailto:comercial@gruporam.com.br"
+            href="mailto:comercial@clickfone.com.br"
             className="flex flex-1 items-center gap-4 rounded-2xl border border-slate-800 bg-slate-900/40 p-5 text-left transition hover:border-cyan-500/40"
           >
             <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-cyan-500/40 text-cyan-400">
@@ -61,15 +61,15 @@ export default function CTA() {
                 E-mail
               </span>
               <span className="block font-bold text-white">
-                comercial@gruporam.com.br
+                comercial@clickfone.com.br
               </span>
             </span>
           </a>
         </div>
 
         <p className="mt-14 text-sm font-semibold text-white">
-          Experiência que evolui,{" "}
-          <span className="text-cyan-400">soluções que entregam.</span>
+          Telefonia em nuvem que{" "}
+          <span className="text-cyan-400">evolui com seu negócio.</span>
         </p>
       </div>
     </section>

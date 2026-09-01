@@ -5,8 +5,7 @@ import Logo from "./Logo";
 import { CloseIcon, MenuIcon } from "./icons";
 
 const links = [
-  { href: "#quem-somos", label: "Quem somos" },
-  { href: "#solucao", label: "Solução" },
+  { href: "#solucao", label: "Soluções" },
   { href: "#diferenciais", label: "Diferenciais" },
   { href: "#contato", label: "Contato" },
 ];
@@ -33,9 +32,9 @@ export default function Header() {
 
         <a
           href="#contato"
-          className="hidden rounded-full bg-gradient-to-r from-amber-400 to-orange-500 px-5 py-2.5 text-sm font-bold text-slate-950 transition hover:brightness-110 md:inline-block"
+          className="hidden rounded-full bg-gradient-to-r from-cyan-400 to-cyan-500 px-5 py-2.5 text-sm font-bold text-slate-950 transition hover:brightness-110 md:inline-block"
         >
-          Solicitar orçamento
+          Fale conosco
         </a>
 
         <button
@@ -66,9 +65,9 @@ export default function Header() {
           <a
             href="#contato"
             onClick={() => setOpen(false)}
-            className="mt-4 inline-block rounded-full bg-gradient-to-r from-amber-400 to-orange-500 px-5 py-2.5 text-sm font-bold text-slate-950"
+            className="mt-4 inline-block rounded-full bg-gradient-to-r from-cyan-400 to-cyan-500 px-5 py-2.5 text-sm font-bold text-slate-950"
           >
-            Solicitar orçamento
+            Fale conosco
           </a>
         </div>
       )}

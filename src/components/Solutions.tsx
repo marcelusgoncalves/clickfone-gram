@@ -4,31 +4,31 @@ import { Card, Eyebrow } from "./ui";
 const solutions = [
   {
     icon: ServerIcon,
-    accent: "amber" as const,
-    title: "Firewall Físico e Cloud",
+    accent: "cyan" as const,
+    title: "PABX Virtual Escalável",
     description:
-      "Appliance dedicado ou solução hospedada em nuvem, conforme a necessidade da operação.",
+      "Infraestrutura de telefonia em nuvem que cresce com seu negócio, sem limites de ramais.",
   },
   {
     icon: SmartphoneIcon,
     accent: "cyan" as const,
-    title: "Proteção de Endpoints",
+    title: "Mobilidade Total",
     description:
-      "Camada adicional de defesa para estações de trabalho, servidores e dispositivos móveis.",
+      "Trabalhe de qualquer lugar com softphone, aplicativo mobile e SIP trunks sem restrições.",
   },
   {
     icon: RefreshIcon,
-    accent: "amber" as const,
-    title: "Disaster Recovery",
+    accent: "cyan" as const,
+    title: "Números Nacionais",
     description:
-      "Continuidade de negócio garantida com planos de contingência e recuperação após incidentes.",
+      "Números únicos (4004, 4003, 3003) com tarifação local em qualquer estado do Brasil.",
   },
   {
     icon: RadarIcon,
     accent: "cyan" as const,
-    title: "Monitoramento NOC e SOC",
+    title: "Inteligência Operacional",
     description:
-      "Equipe especializada acompanhando a rede 24 horas por dia, 7 dias por semana.",
+      "Dashboards em tempo real, relatórios avançados e análise de performance de chamadas.",
   },
 ];
 
@@ -36,14 +36,14 @@ export default function Solutions() {
   return (
     <section id="solucao" className="scroll-mt-20 bg-slate-900/30 py-24 px-6">
       <div className="mx-auto max-w-6xl">
-        <Eyebrow accent="amber">O que é o FWaaS</Eyebrow>
+        <Eyebrow accent="cyan">Soluções ClickFone</Eyebrow>
         <h2 className="font-heading max-w-3xl text-3xl font-extrabold text-white sm:text-4xl md:text-5xl">
-          Proteção perimetral completa, para qualquer cenário.
+          Telefonia profissional para empresas modernas.
         </h2>
         <p className="mt-6 max-w-3xl text-lg text-slate-400">
-          O Firewall as a Service do Grupo RAM entrega segurança avançada com
-          flexibilidade entre nuvem e ambiente físico, adaptando-se ao porte
-          e à necessidade de cada operação.
+          ClickFone oferece uma plataforma completa de comunicação que unifica
+          PABX, números nacionais, URA inteligente e integração com WhatsApp
+          corporativo — tudo sem infraestrutura física ou complexidade operacional.
         </p>
 
         <div className="mt-14 grid gap-6 sm:grid-cols-2">

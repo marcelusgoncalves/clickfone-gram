@@ -29,26 +29,26 @@ export default function Dashboard() {
   return (
     <section className="bg-slate-950 py-24 px-6">
       <div className="mx-auto max-w-6xl">
-        <Eyebrow accent="amber">Painel de gestão</Eyebrow>
+        <Eyebrow accent="cyan">Painel ClickFone</Eyebrow>
         <h2 className="font-heading max-w-3xl text-3xl font-extrabold text-white sm:text-4xl md:text-5xl">
-          Visibilidade total da sua rede, em um único painel.
+          Controle total das suas chamadas, em tempo real.
         </h2>
         <p className="mt-6 max-w-3xl text-lg text-slate-400">
-          Acompanhe tráfego, bloqueios, dispositivos conectados e a saúde do
-          seu firewall em tempo real — de forma simples, visual e acessível
-          de qualquer lugar.
+          Dashboard inteligente com métricas de chamadas, atendidas vs perdidas,
+          filas de espera, relatórios avançados e distribuição de chamadas por agente
+          — tudo acessível de qualquer dispositivo, a qualquer hora.
         </p>
 
         <div className="mt-14 grid gap-6 sm:grid-cols-2">
           <BrowserFrame
-            src="/images/dashboard-04.jpeg"
-            alt="Visão geral do painel de gestão do firewall, com status de internet, dispositivos conectados, bloqueios e tráfego em tempo real"
-            path="painel.gruporam.com.br/firewall"
+            src="/images/dashboard-01.jpeg"
+            alt="Dashboard ClickFone com visão geral de chamadas ativas, atendidas, perdidas e métricas em tempo real"
+            path="painel.clickfone.com.br/dashboard"
           />
           <BrowserFrame
-            src="/images/dashboard-03.jpeg"
-            alt="Métricas de banda mostrando o tráfego de upload e download da interface WAN1"
-            path="painel.gruporam.com.br/metricas"
+            src="/images/dashboard-02.jpeg"
+            alt="Relatórios de performance com gráficos de volume de chamadas por hora e distribuição por fila"
+            path="painel.clickfone.com.br/relatorios"
           />
         </div>
       </div>

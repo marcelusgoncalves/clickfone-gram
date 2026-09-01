@@ -10,38 +10,38 @@ export default function Footer() {
           <div>
             <Logo />
             <p className="mt-4 text-sm text-slate-500">
-              Desde 1997 entregando tecnologia, segurança e infraestrutura
-              para empresas em todo o Brasil.
+              Solução de telefonia em nuvem operacionalizada por Memória RAM Solutions,
+              empresa com 28 anos de experiência em tecnologia corporativa.
             </p>
           </div>
 
           <div>
-            <h4 className="font-semibold text-white">Soluções</h4>
+            <h4 className="font-semibold text-white">Produtos</h4>
             <ul className="mt-4 space-y-2 text-sm text-slate-400">
               <li>
                 <a href="#solucao" className="transition hover:text-cyan-400">
-                  Firewall as a Service
+                  PABX Virtual
                 </a>
               </li>
               <li>
                 <a href="#solucao" className="transition hover:text-cyan-400">
-                  Segurança Perimetral
+                  Números Nacionais
                 </a>
               </li>
               <li>
                 <a href="#solucao" className="transition hover:text-cyan-400">
-                  Monitoramento NOC/SOC
+                  Relatórios em Tempo Real
                 </a>
               </li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-semibold text-white">Empresa</h4>
+            <h4 className="font-semibold text-white">Recursos</h4>
             <ul className="mt-4 space-y-2 text-sm text-slate-400">
               <li>
-                <a href="#quem-somos" className="transition hover:text-cyan-400">
-                  Quem somos
+                <a href="#solucao" className="transition hover:text-cyan-400">
+                  Soluções
                 </a>
               </li>
               <li>
@@ -62,15 +62,15 @@ export default function Footer() {
             <ul className="mt-4 space-y-2 text-sm text-slate-400">
               <li>
                 <a
-                  href="mailto:comercial@gruporam.com.br"
+                  href="mailto:comercial@clickfone.com.br"
                   className="transition hover:text-cyan-400"
                 >
-                  comercial@gruporam.com.br
+                  comercial@clickfone.com.br
                 </a>
               </li>
               <li>
-                <a href="tel:+556130365656" className="transition hover:text-cyan-400">
-                  (61) 3036-5656
+                <a href="tel:+5508007285800" className="transition hover:text-cyan-400">
+                  0800 728 5800
                 </a>
               </li>
               <li>Brasília, DF - Brasil</li>
@@ -79,7 +79,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 border-t border-white/5 pt-8 text-center text-sm text-slate-500">
-          <p>&copy; {currentYear} Grupo RAM. Todos os direitos reservados.</p>
+          <p>&copy; {currentYear} ClickFone. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
