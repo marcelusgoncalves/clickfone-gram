@@ -40,10 +40,8 @@ export default function Solutions() {
         <h2 className="font-heading max-w-3xl text-3xl font-extrabold text-white sm:text-4xl md:text-5xl">
           Telefonia profissional para empresas modernas.
         </h2>
-        <p className="mt-6 max-w-3xl text-lg text-slate-400">
-          ClickFone oferece uma plataforma completa de comunicação que unifica
-          PABX, números nacionais, URA inteligente e integração com WhatsApp
-          corporativo — tudo sem infraestrutura física ou complexidade operacional.
+        <p className="mt-6 max-w-3xl text-justify text-lg leading-relaxed text-slate-300">
+          ClickFone oferece uma plataforma completa de comunicação que unifica PABX, números nacionais, URA inteligente e integração com WhatsApp corporativo — tudo sem infraestrutura física ou complexidade operacional.
         </p>
 
         <div className="mt-14 grid gap-6 sm:grid-cols-2">

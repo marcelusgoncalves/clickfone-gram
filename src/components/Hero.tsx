@@ -58,9 +58,8 @@ export default function Hero() {
             <span className="text-cyan-400">Performance. Controle.</span>
           </h1>
 
-          <p className="mt-6 max-w-xl text-lg text-slate-300">
-            Plataforma completa de PABX virtual com números únicos nacionais,
-            relatórios em tempo real e inteligência operacional.
+          <p className="mt-6 max-w-xl text-justify text-lg leading-relaxed text-slate-300">
+            Plataforma completa de PABX virtual com números únicos nacionais, relatórios em tempo real e inteligência operacional.
           </p>
 
           <div className="mt-8 flex items-center gap-3">

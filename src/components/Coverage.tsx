@@ -16,11 +16,8 @@ export default function Coverage() {
         <h2 className="font-heading max-w-3xl text-3xl font-extrabold text-white sm:text-4xl md:text-5xl">
           Cobertura nacional com números únicos em todo o Brasil.
         </h2>
-        <p className="mt-6 max-w-3xl text-lg text-slate-400">
-          ClickFone atende empresas de qualquer tamanho em todo o território nacional
-          com números únicos (4004, 4003, 3003), tarifação local e suporte 24/7
-          especializado. Operacionalizado por Memória RAM Solutions, empresa com mais
-          de 28 anos de experiência em tecnologia corporativa.
+        <p className="mt-6 max-w-3xl text-justify text-lg leading-relaxed text-slate-300">
+          ClickFone atende empresas de qualquer tamanho em todo o território nacional com números únicos (4004, 4003, 3003), tarifação local e suporte 24/7 especializado. Operacionalizado por Memória RAM Solutions, empresa com mais de 28 anos de experiência em tecnologia corporativa.
         </p>
 
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">

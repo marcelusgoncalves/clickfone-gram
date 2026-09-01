@@ -33,10 +33,8 @@ export default function Dashboard() {
         <h2 className="font-heading max-w-3xl text-3xl font-extrabold text-white sm:text-4xl md:text-5xl">
           Controle total das suas chamadas, em tempo real.
         </h2>
-        <p className="mt-6 max-w-3xl text-lg text-slate-400">
-          Dashboard inteligente com métricas de chamadas, atendidas vs perdidas,
-          filas de espera, relatórios avançados e distribuição de chamadas por agente
-          — tudo acessível de qualquer dispositivo, a qualquer hora.
+        <p className="mt-6 max-w-3xl text-justify text-lg leading-relaxed text-slate-300">
+          Dashboard inteligente com métricas de chamadas, atendidas vs perdidas, filas de espera, relatórios avançados e distribuição de chamadas por agente — tudo acessível de qualquer dispositivo, a qualquer hora.
         </p>
 
         <div className="mt-14 grid gap-6 sm:grid-cols-2">

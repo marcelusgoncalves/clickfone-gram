@@ -43,20 +43,12 @@ export default function About() {
             <h2 className="font-heading max-w-2xl text-3xl font-extrabold text-white sm:text-4xl md:text-5xl">
               Telefonia em nuvem que simplifica a comunicação empresarial.
             </h2>
-            <div className="mt-6 max-w-2xl space-y-4 text-lg text-slate-400">
+            <div className="mt-6 max-w-2xl space-y-6 text-justify text-lg leading-relaxed text-slate-300">
               <p>
-                ClickFone é uma solução de PABX Virtual em nuvem criada pela
-                Memória RAM Solutions, empresa com mais de 28 anos de experiência
-                em tecnologia empresarial. Nosso objetivo é oferecer comunicação
-                profissional sem complexidade operacional, permitindo que empresas
-                de qualquer tamanho tenham acesso a recursos de telefonia de nível
-                corporativo.
+                ClickFone é uma solução de PABX Virtual em nuvem criada pela Memória RAM Solutions, empresa com mais de 28 anos de experiência em tecnologia empresarial. Nosso objetivo é oferecer comunicação profissional sem complexidade operacional, permitindo que empresas de qualquer tamanho tenham acesso a recursos de telefonia de nível corporativo.
               </p>
               <p>
-                Com infraestrutura hospedada em AWS e suporte especializado 24/7,
-                ClickFone oferece números únicos nacionais, relatórios em tempo real,
-                integração com URA e WhatsApp corporativo — tudo sem necessidade de
-                investimento em infraestrutura física ou aparelhos especializados.
+                Com infraestrutura hospedada em AWS e suporte especializado 24/7, ClickFone oferece números únicos nacionais, relatórios em tempo real, integração com URA e WhatsApp corporativo — tudo sem necessidade de investimento em infraestrutura física ou aparelhos especializados.
               </p>
             </div>
           </div>
