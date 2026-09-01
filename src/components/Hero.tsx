@@ -39,13 +39,12 @@ export default function Hero() {
       </svg>
 
       <div className="relative mx-auto max-w-6xl px-6 pb-28 pt-20 sm:pt-28">
-        <div className="flex justify-end">
-          <span className="text-xs uppercase tracking-[0.3em] text-slate-500">
-            Desde 1997
-          </span>
-        </div>
-
         <div className="mt-16 max-w-2xl sm:mt-24">
+          <div className="mb-8">
+            <span className="text-xs uppercase tracking-[0.3em] text-slate-500">
+              Desde 1997
+            </span>
+          </div>
           <div className="mb-6 flex items-center gap-3">
             <span className="h-px w-8 bg-cyan-400" />
             <span className="text-xs font-semibold uppercase tracking-[0.25em] text-cyan-400">
