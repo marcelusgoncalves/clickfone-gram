@@ -4,31 +4,31 @@ import { Card, Eyebrow } from "./ui";
 const pillars = [
   {
     icon: ClockIcon,
-    accent: "amber" as const,
-    title: "Missão",
+    accent: "cyan" as const,
+    title: "PABX em Nuvem",
     description:
-      "Entregar soluções de segurança digital que antecipam ameaças e garantem a continuidade operacional dos nossos clientes.",
+      "Infraestrutura de telefonia escalável e confiável, hospedada em datacenters AWS com redundância nacional e internacional.",
   },
   {
     icon: EyeIcon,
     accent: "cyan" as const,
-    title: "Visão",
+    title: "Visibilidade Total",
     description:
-      "Ser referência em cibersegurança e infraestrutura gerenciada, reconhecida pela qualidade técnica e confiabilidade.",
+      "Dashboards inteligentes com métricas em tempo real, relatórios avançados e inteligência operacional para decisões informadas.",
   },
   {
     icon: ShieldIcon,
-    accent: "amber" as const,
-    title: "Valores",
+    accent: "cyan" as const,
+    title: "Segurança Empresarial",
     description:
-      "Compromisso, transparência, excelência técnica e inovação contínua em cada projeto entregue.",
+      "Criptografia de dados, conformidade LGPD, SLA 99,5% e protocolos de segurança de nível corporativo.",
   },
   {
     icon: CompassIcon,
     accent: "cyan" as const,
-    title: "Propósito",
+    title: "Mobilidade Total",
     description:
-      "Conectar empresas à tecnologia certa para crescer com segurança, eficiência e previsibilidade.",
+      "Acesse de qualquer lugar via softphone, mobile app ou SIP trunk. Trabalhe remotamente sem perder funcionalidades.",
   },
 ];
 
@@ -36,25 +36,24 @@ export default function About() {
   return (
     <section id="quem-somos" className="scroll-mt-20 bg-slate-950 py-24 px-6">
       <div className="mx-auto max-w-6xl">
-        <Eyebrow accent="cyan">Quem somos</Eyebrow>
+        <Eyebrow accent="cyan">Sobre ClickFone</Eyebrow>
         <h2 className="font-heading max-w-3xl text-3xl font-extrabold text-white sm:text-4xl md:text-5xl">
-          Tecnologia que protege, parceria que entrega resultado.
+          Telefonia em nuvem que simplifica a comunicação empresarial.
         </h2>
         <div className="mt-6 max-w-3xl space-y-4 text-lg text-slate-400">
           <p>
-            O Grupo RAM é uma empresa de tecnologia com mais de 28 anos
-            de atuação, especializada na implementação, gestão e sustentação
-            de ambientes críticos de TI para empresas de médio e grande
-            porte nos setores de saúde, varejo, serviços e ambientes
-            corporativos de alta demanda.
+            ClickFone é uma solução de PABX Virtual em nuvem criada pela
+            Memória RAM Solutions, empresa com mais de 28 anos de experiência
+            em tecnologia empresarial. Nosso objetivo é oferecer comunicação
+            profissional sem complexidade operacional, permitindo que empresas
+            de qualquer tamanho tenham acesso a recursos de telefonia de nível
+            corporativo.
           </p>
           <p>
-            Combinamos tecnologia de ponta, parcerias estratégicas com
-            fabricantes líderes de mercado e uma abordagem orientada a
-            resultados — atuando como parceiro estratégico na transformação
-            e sustentação do ambiente tecnológico dos nossos clientes, com
-            continuidade operacional, redução de riscos e ganho de
-            eficiência.
+            Com infraestrutura hospedada em AWS e suporte especializado 24/7,
+            ClickFone oferece números únicos nacionais, relatórios em tempo real,
+            integração com URA e WhatsApp corporativo — tudo sem necessidade de
+            investimento em infraestrutura física ou aparelhos especializados.
           </p>
         </div>
 
