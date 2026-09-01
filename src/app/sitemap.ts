@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const baseUrl = "https://fwaas-gram.vercel.app";
+const baseUrl = "https://clickfone-gram.vercel.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [

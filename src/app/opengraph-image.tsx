@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 
-export const alt = "FWAAS | Firewall as a Service — Grupo RAM";
+export const alt = "ClickFone | PABX Virtual em Nuvem — Memória RAM";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -37,7 +37,7 @@ export default async function Image() {
               fontWeight: 600,
             }}
           >
-            GRUPO RAM
+            CLICKFONE
           </span>
         </div>
 
@@ -47,12 +47,12 @@ export default async function Image() {
           <span
             style={{
               fontSize: 24,
-              color: "#fbbf24",
+              color: "#22d3ee",
               letterSpacing: 5,
               fontWeight: 700,
             }}
           >
-            CYBERSECURITY &amp; NETWORK PROTECTION
+            CLOUD TELEPHONY &amp; BUSINESS COMMUNICATION
           </span>
           <span
             style={{
@@ -63,7 +63,7 @@ export default async function Image() {
               marginTop: 24,
             }}
           >
-            Firewall
+            Telefonia em
           </span>
           <span
             style={{
@@ -73,7 +73,7 @@ export default async function Image() {
               lineHeight: 1.05,
             }}
           >
-            as a Service
+            nuvem.
           </span>
           <span
             style={{
@@ -83,7 +83,7 @@ export default async function Image() {
               maxWidth: 820,
             }}
           >
-            Experiência que evolui, soluções que entregam.
+            Performance. Controle. Inteligência operacional.
           </span>
         </div>
       </div>

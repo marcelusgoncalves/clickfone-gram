@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://fwaas-gram.vercel.app/sitemap.xml",
+    sitemap: "https://clickfone-gram.vercel.app/sitemap.xml",
   };
 }

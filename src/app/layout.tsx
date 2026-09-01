@@ -15,10 +15,10 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://fwaas-gram.vercel.app"),
-  title: "FWAAS | Firewall as a Service — Grupo RAM",
+  metadataBase: new URL("https://clickfone-gram.vercel.app"),
+  title: "ClickFone | PABX Virtual em Nuvem — Memória RAM",
   description:
-    "Segurança perimetral inteligente, sob demanda e sem complexidade. Experiência que evolui, soluções que entregam.",
+    "Telefonia em nuvem profissional com números únicos nacionais, relatórios em tempo real e mobilidade total. Sem infraestrutura física.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
