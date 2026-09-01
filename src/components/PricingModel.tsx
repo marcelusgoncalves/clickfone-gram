@@ -14,7 +14,7 @@ const items = [
 export default function PricingModel() {
   return (
     <section className="bg-slate-950 py-24 px-6">
-      <div className="mx-auto grid max-w-6xl gap-14 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+      <div className="mx-auto grid max-w-6xl gap-14 lg:grid-cols-[0.95fr_1.25fr] lg:items-center">
         <div>
           <Eyebrow accent="cyan">Planos e funcionalidades</Eyebrow>
           <h2 className="font-heading text-3xl font-extrabold text-white sm:text-4xl md:text-5xl">
@@ -36,15 +36,20 @@ export default function PricingModel() {
           </a>
         </div>
 
-        <div className="relative overflow-hidden rounded-2xl border border-slate-800 shadow-2xl shadow-black/40">
-          <div className="pointer-events-none absolute inset-0 z-10 rounded-2xl bg-cyan-500/5" />
-          <div className="relative aspect-video w-full">
-            <Image
-              src="/images/dashboard-01.jpeg"
-              alt="Dashboard ClickFone com métricas de chamadas, atendidas e filas em tempo real"
-              fill
-              className="object-cover"
-            />
+        <div className="relative -mr-6 lg:mr-0">
+          <div className="relative overflow-hidden rounded-2xl shadow-2xl shadow-cyan-500/20" style={{
+            transform: 'perspective(1200px) rotateY(-2deg) rotateX(1deg)',
+          }}>
+            <div className="pointer-events-none absolute inset-0 z-10 rounded-2xl bg-gradient-to-b from-cyan-500/10 to-transparent" />
+            <div className="relative aspect-video w-full">
+              <Image
+                src="/images/planos-dashboard-clickfone.png"
+                alt="Painel ClickFone com métricas em tempo real"
+                fill
+                priority
+                className="object-cover"
+              />
+            </div>
           </div>
         </div>
       </div>
