@@ -47,21 +47,21 @@ export default function Hero() {
 
         <div className="mt-16 max-w-2xl sm:mt-24">
           <div className="mb-6 flex items-center gap-3">
-            <span className="h-px w-8 bg-amber-400" />
-            <span className="text-xs font-semibold uppercase tracking-[0.25em] text-amber-400">
-              Cybersecurity &amp; Network Protection
+            <span className="h-px w-8 bg-cyan-400" />
+            <span className="text-xs font-semibold uppercase tracking-[0.25em] text-cyan-400">
+              Cloud Telephony &amp; Business Communication
             </span>
           </div>
 
           <h1 className="font-heading text-5xl font-extrabold leading-[1.05] text-white sm:text-6xl md:text-7xl">
-            Firewall
+            Telefonia em nuvem.
             <br />
-            <span className="text-cyan-400">as a Service</span>
+            <span className="text-cyan-400">Performance. Controle.</span>
           </h1>
 
           <p className="mt-6 max-w-xl text-lg text-slate-300">
-            Segurança perimetral inteligente, sob demanda e sem complexidade
-            para a continuidade da sua operação.
+            Plataforma completa de PABX virtual com números únicos nacionais,
+            relatórios em tempo real e inteligência operacional.
           </p>
 
           <div className="mt-8 flex items-center gap-3">
@@ -73,24 +73,24 @@ export default function Hero() {
           <div className="mt-10 flex flex-wrap gap-4">
             <a
               href="#contato"
-              className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-amber-400 to-orange-500 px-7 py-4 text-sm font-bold text-slate-950 shadow-lg shadow-amber-500/20 transition hover:brightness-110"
+              className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-cyan-400 to-cyan-500 px-7 py-4 text-sm font-bold text-slate-950 shadow-lg shadow-cyan-500/20 transition hover:brightness-110"
             >
-              Solicitar orçamento
+              Fale com um especialista
               <ArrowRightIcon className="h-4 w-4" />
             </a>
             <a
-              href="tel:+556130365656"
+              href="tel:+5508007285800"
               className="inline-flex items-center gap-2 rounded-full border border-slate-700 px-7 py-4 text-sm font-semibold text-slate-200 transition hover:border-cyan-500/50 hover:text-cyan-400"
             >
               <PhoneIcon className="h-4 w-4" />
-              (61) 3036-5656
+              0800 728 5800
             </a>
           </div>
         </div>
 
         <p className="mt-24 max-w-md text-sm text-slate-500 sm:mt-32">
-          Mais de 28 anos entregando tecnologia, segurança e infraestrutura
-          para empresas em todo o Brasil.
+          Solução de telefonia gerenciada na nuvem para empresas que buscam
+          eficiência, mobilidade e controle total de suas comunicações.
         </p>
       </div>
     </section>
