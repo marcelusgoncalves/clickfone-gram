@@ -19,10 +19,6 @@ export const metadata: Metadata = {
   title: "ClickFone | PABX Virtual em Nuvem — Memória RAM",
   description:
     "Telefonia em nuvem profissional com números únicos nacionais, relatórios em tempo real e mobilidade total. Sem infraestrutura física.",
-  icons: {
-    icon: "/favicon.png",
-    apple: "/favicon.png",
-  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
